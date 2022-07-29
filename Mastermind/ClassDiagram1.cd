@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mastermind.Mastermind">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAoAAABAAAAAA=</HashCode>
+      <FileName>Mastermind.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="menu" />
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mastermind.Board">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQIAAEAAAAAAAIAAAAAAAEACAgAAAAAAICAAgA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hideCombination" />
+      <Field Name="tries" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mastermind.Menu">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mastermind.Combination">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAAgAAAAAAAAAEAAAAAAAAAAgAAAAAAQIABAI=</HashCode>
+      <FileName>Combination\Combination.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="combination" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mastermind.MadeCombination">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Combination\MadeCombination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mastermind.RandomCombination">
+    <Position X="8" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Combination\RandomCombination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Mastermind.Utils.Color">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgAAAAAAAAIQAAAAAAAAAAAAIAAAAAAARgA=</HashCode>
+      <FileName>Utils\Color.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
